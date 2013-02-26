@@ -2,7 +2,6 @@
 	$.fn.focusText = function(){
 		return this.each(function(){
 			var $this = $(this);
-			console.log($this);
 			$this.data('focustext', $this.val());
 
 			$this.focus(function(){
